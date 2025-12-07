@@ -19,3 +19,14 @@ This project analyzes the Pima Indians Diabetes Dataset to identify key indicato
 1.  Clone the repository.
 2.  Install dependencies: `pip install pandas seaborn scikit-learn`.
 3.  Run the script `metabolic_health_eda.py`.
+## Model Performance (Logistic Regression)
+We trained a Logistic Regression model to predict diabetes onset based on diagnostic measures.
+
+* **Overall Accuracy:** 75.32%
+* **Key Insight:** The model is highly effective at identifying healthy patients (Precision: 0.80) but requires further tuning to improve sensitivity for detecting positive diabetic cases (Recall: 0.62).
+
+### Confusion Matrix Results
+| | Predicted Healthy | Predicted Diabetic |
+|---|---|---|
+| **Actual Healthy** | High Accuracy | Low False Positives |
+| **Actual Diabetic** | Moderate False Negatives | Moderate True Positives |
