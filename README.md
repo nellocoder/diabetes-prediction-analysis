@@ -30,3 +30,11 @@ We trained a Logistic Regression model to predict diabetes onset based on diagno
 |---|---|---|
 | **Actual Healthy** | High Accuracy | Low False Positives |
 | **Actual Diabetic** | Moderate False Negatives | Moderate True Positives |
+
+## Patient Segmentation (Unsupervised Learning)
+To understand patient profiles beyond simple "Sick/Healthy" labels, we applied K-Means Clustering (k=3) to segment the population.
+
+**Key Findings:**
+1.  **Cluster 0 (Metabolic Syndrome):** Young patients (avg age 29) with severe obesity (BMI 39) and highest insulin resistance. This group represents the highest intervention priority.
+2.  **Cluster 1 (Older Mothers):** Older patients (avg age 45) with a history of multiple pregnancies (avg 7.3). Diabetes risk here is likely age-related.
+3.  **Cluster 2 (Healthy Baseline):** Young patients with lower BMI and normal glucose levels. Only 13% of this group is diabetic.
