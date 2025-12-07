@@ -1,3 +1,4 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diabetes-prediction-analysis-kcxgmyepeudwwm3u3xkecw.streamlit.app/)
 # diabetes-prediction-analysis
 End-to-end analysis and prediction of diabetes risk using the Pima Indians dataset.
 # Metabolic Health Explorer: Pima Indians Diabetes Analysis
