@@ -4,7 +4,7 @@ End-to-end analysis and prediction of diabetes risk using the Pima Indians datas
 # Metabolic Health Explorer: Pima Indians Diabetes Analysis
 
 ## Project Overview
-This project analyzes the Pima Indians Diabetes Dataset to identify key indicators of diabetes risk. It progresses from Exploratory Data Analysis (EDA) to building predictive models using Python.
+This project analyzes the Pima Indians Diabetes Dataset to identify key indicators of diabetes risk. It progresses from Exploratory Data Analysis (EDA) to building predictive models using jupiter notebook. 
 
 ## Key Insights
 * **Data Integrity:** Identified that the dataset used `0` as a placeholder for missing values in biologically impossible columns (Glucose, Blood Pressure, BMI).
